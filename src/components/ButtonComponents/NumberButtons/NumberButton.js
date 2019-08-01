@@ -1,5 +1,7 @@
 import React from "react";
 
+import numbers from "~/src/data.js";
+
 const NumberButton = () => {
   return (
     <>

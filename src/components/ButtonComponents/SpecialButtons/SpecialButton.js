@@ -1,5 +1,7 @@
 import React from "react";
 
+import specials from "~/src/data.js";
+
 const SpecialButton = () => {
   return (
     <>
