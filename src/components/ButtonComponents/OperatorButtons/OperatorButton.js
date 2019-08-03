@@ -1,11 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 
 function OperatorButton(props) {
 
   return (
-    <button>
-    {props}
-    </button>
+    <button>{props.char}</button>
   );
 };
 

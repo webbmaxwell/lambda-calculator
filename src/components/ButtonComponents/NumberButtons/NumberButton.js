@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 
 function NumberButton(props) {
+  
   return (
-    <button>
-    {props}
-    </button>
+    <button>{props.number}</button>
   );
 };
 

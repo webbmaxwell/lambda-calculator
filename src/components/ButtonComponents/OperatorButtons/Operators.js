@@ -3,19 +3,19 @@ import React, { useState } from "react";
 //import any components needed
 import OperatorButton from "./OperatorButton.js"
 //Import your array data to from the provided data file
-import { operators } from "~/src/data.js";
+import { operators } from "../../../data.js";
 
 
 function Operators() {
   // STEP 2 - add the imported data to state
   const [operatorState] = useState(operators);
 
+  //STEP 3
   return (
     <div>
-    //STEP 3
-      {operatorState.map((char, value) => {
+      {operatorState.map((index) => {
         return (
-          <NumberButton key={index} operator={value}/>
+          <OperatorButton key={index.char} value={index.value}/>
         )
       })}
     </div>

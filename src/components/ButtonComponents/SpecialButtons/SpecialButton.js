@@ -1,10 +1,10 @@
 import React from "react";
 
-function SpecialButton() {
+function SpecialButton(props) {
 
   return (
     <button>
-    {props}
+    {props.special}
     </button>
   );
 };
