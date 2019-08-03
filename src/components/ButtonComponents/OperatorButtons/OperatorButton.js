@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const OperatorButton = (props) => {
+function OperatorButton(props) {
 
   return (
     <button>

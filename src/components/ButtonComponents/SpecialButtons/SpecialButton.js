@@ -1,6 +1,6 @@
 import React from "react";
 
-const SpecialButton = () => {
+function SpecialButton() {
 
   return (
     <button>

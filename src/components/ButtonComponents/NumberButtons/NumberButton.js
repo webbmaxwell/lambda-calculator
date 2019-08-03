@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const NumberButton = (props) => {
+function NumberButton(props) {
   return (
     <button>
     {props}

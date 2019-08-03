@@ -5,7 +5,7 @@ import NumberButton from "./NumberButton.js";
 //Import your array data to from the provided data file
 import { numbers } from "~/src/data.js";
 
-const Numbers = (props) => {
+function Numbers(props) {
   // STEP 2 - add the imported data to state
   const [numberState] = useState(numbers);
 

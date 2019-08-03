@@ -6,7 +6,7 @@ import OperatorButton from "./OperatorButton.js"
 import { operators } from "~/src/data.js";
 
 
-const Operators = () => {
+function Operators() {
   // STEP 2 - add the imported data to state
   const [operatorState] = useState(operators);
 
