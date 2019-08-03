@@ -14,8 +14,9 @@ const Operators = () => {
     <div>
     //STEP 3
       {operatorState.map((char, value) => {
-        return
-          <NumberButton char={char}, operator={value}/>
+        return (
+          <NumberButton key={index} operator={value}/>
+        )
       })}
     </div>
   );

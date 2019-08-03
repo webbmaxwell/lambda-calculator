@@ -13,9 +13,9 @@ const Specials = () => {
     <div>
     //STEP 3
       {specialState.map((special, index) => {
-        return
-          <NumberButton key={index}, special={special}/>
-      })}
+        return (
+          <NumberButton key={index} special={special}/>
+      )})}
     </div>
   );
 };
