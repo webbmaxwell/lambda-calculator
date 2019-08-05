@@ -9,17 +9,17 @@ import { operators } from "../../../data.js";
 function Operators() {
   // STEP 2 - add the imported data to state
   const [operatorState] = useState(operators);
-
+  // console.log(operators);
   //STEP 3
-  return (
-    <div>
-      {operatorState.map((index) => {
-        return (
-          <OperatorButton key={index.char} value={index.value}/>
+   return (
+     <div>
+       {operatorState.map((obj, index) => {
+         return (
+           <OperatorButton key={index} char={obj.char} className="operators"/>
         )
-      })}
-    </div>
-  );
+       })}
+     </div>
+   );
 };
 
 /* STEP 3 - Use .map() to iterate over your array data and return a button

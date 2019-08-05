@@ -14,7 +14,7 @@ function Numbers(props) {
     <div>
       {numberState.map((number, index) => {
         return (
-          <NumberButton key={index} number={number}/>
+          <NumberButton key={index} number={number} className="numbers"/>
         )
       })}
     </div>

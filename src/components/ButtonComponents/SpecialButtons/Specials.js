@@ -14,7 +14,7 @@ function Specials() {
     <div>
       {specialState.map((special, index) => {
         return (
-          <SpecialButton key={index} special={special}/>
+          <SpecialButton key={index} special={special} className="specials"/>
       )})}
     </div>
   );
