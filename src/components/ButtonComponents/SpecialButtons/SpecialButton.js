@@ -3,7 +3,7 @@ import React from "react";
 function SpecialButton(props) {
 
   return (
-    <button>
+    <button className="special">
     {props.special}
     </button>
   );

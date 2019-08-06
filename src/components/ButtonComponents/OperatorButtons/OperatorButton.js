@@ -3,7 +3,7 @@ import React from "react";
 function OperatorButton(props) {
 
   return (
-    <button>{props.char}</button>
+    <button className="operator">{props.char}</button>
   );
 };
 
